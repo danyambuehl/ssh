@@ -3,16 +3,17 @@ SSH Basic
 Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workflows zu geben.
 
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Workflows)]()
+***
 
 ![GitHub](/github.png)***SSH Key zu GitHub hinzufügen*** 
 ***
 1. Lokalen SSH Key erstellen (falls noch nicht vorhanden)
     ``` 
-      $ `ssh-keygen -t rsa` 
+      $ ssh-keygen -t rsa 
     ``` 
 2. Public SSH Key anzeigen und den Inhalt koppieren
     ```
-     $ `cat ~/.ssh/id_rsa.pub` 
+     $ cat ~/.ssh/id_rsa.pub 
     ```
 3. Zu Github wechseln, auf Benutzerkonto klicken, **Settings** aufrufen und zu **SSH und GPG keys** wechseln
 4. Auf **New SSH key** klicken
@@ -45,7 +46,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 | `ssh-add ~/.ssh/id_rsa` | agent mit private key verknüpfen |
 
 ### SSH Port Forwading
-
+***
 Local Computer 
 TBZ Rechner : 10.3.44.12 /ubuntu / Equahxi8
 Client: 10.10.5.6 / user1 /tbz4ever
@@ -57,7 +58,7 @@ Client: 10.10.5.6 / user1 /tbz4ever
 
 
 ### SSH 2 AWS
-
+***
 | Behfehl | Beschreibung |
 | ---     | ---   |
 | `ssh -i "dam-key-new.pem" ubuntu@ec2-18-208-130-205.compute-1.amazonaws.com` | Verbinde auf AWS Instance with Local Maschin und keypair |
