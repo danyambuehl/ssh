@@ -6,7 +6,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 ***
 
 ![GitHub](/github.png)***SSH Key zu GitHub hinzufügen*** 
-***
+
 1. Lokalen SSH Key erstellen (falls noch nicht vorhanden)
     ``` 
       $ ssh-keygen -t rsa 
