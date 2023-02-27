@@ -2,7 +2,7 @@ SSH Basic
 ====
 Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workflows zu geben.
 
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Workflows)]()
+### Workflows
 ***
 
 ![GitHub](/github.png)***SSH Key zu GitHub hinzufügen*** 
