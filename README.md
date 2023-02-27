@@ -1,14 +1,15 @@
 SSH Basic 
 ====
+![GitLab](/ssh_icon.png)
+Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workflows zu geben.
 
-Das Ziel ist eine Übersicht über einige Grundsätzliche SSH Befehle zu bekommen. 
-Sowie eine kurze übersicht für die meist genutzten SSH Workflows.
-
-# Workflow SSH Key in Github hinzufügen:
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Workflows)](Workflows)
+### SSH Key zu Github hinzufügen:
 
 -  Lokalen SSH Key erstellen (falls noch nicht vorhanden)
-    >  $ `ssh-keygen -t rsa` 
-
+    ``` 
+      $ `ssh-keygen -t rsa` 
+    ``` 
 - Public SSH Key anzeigen und den Inhalt koppieren
     >  $ `cat ~/.ssh/id_rsa.pub` 
 
@@ -16,7 +17,7 @@ Sowie eine kurze übersicht für die meist genutzten SSH Workflows.
 -  Auf **New SSH key** klicken
 -  **Title** vergeben und den zuvor kopierten Key einfügen und auf **Add SSH key** klicken
 
-# Übersicht SSH Key 
+### Basic SSH Commands 
 
 | Behfehl | Beschreibung |
 | ---     | ---   |
@@ -33,7 +34,7 @@ Sowie eine kurze übersicht für die meist genutzten SSH Workflows.
 | `eval "$(ssh-agent -s)"`| output of ssh-agent as shell commands |
 | `ssh-add test_ecdsa_key`| Fügt das Passwort für den Privat Key dem ssh-agent hinzu    |
 
-# Übersicht SSH Agent starten 
+### SSH Agent Commands 
 
 | Behfehl | Beschreibung |
 | ---     | ---   |
@@ -42,7 +43,7 @@ Sowie eine kurze übersicht für die meist genutzten SSH Workflows.
 | `output in Console posten` | agent starten |
 | `ssh-add ~/.ssh/id_rsa` | agent mit private key verknüpfen |
 
-# Übersicht SSH Port Forwading
+### SSH Port Forwading
 
 Local Computer 
 TBZ Rechner : 10.3.44.12 /ubuntu / Equahxi8
@@ -54,7 +55,7 @@ Client: 10.10.5.6 / user1 /tbz4ever
 |On Local Computer -> In new Shell | `ssh user1@localhost -p 33333`| Verbindet SSH auf den Localhost Port 33333 mit user1   |
 
 
-# Übersicht SSH AWS
+### SSH 2 AWS
 
 | Behfehl | Beschreibung |
 | ---     | ---   |
