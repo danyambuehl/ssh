@@ -1,21 +1,21 @@
 SSH Basic 
 ====
-![GitLab](/ssh_icon.png)
 Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workflows zu geben.
 
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Workflows)](Workflows)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Workflows)]()
 ### SSH Key zu Github hinzufügen:
-
--  Lokalen SSH Key erstellen (falls noch nicht vorhanden)
+***
+1. Lokalen SSH Key erstellen (falls noch nicht vorhanden)
     ``` 
       $ `ssh-keygen -t rsa` 
     ``` 
-- Public SSH Key anzeigen und den Inhalt koppieren
+2. Public SSH Key anzeigen und den Inhalt koppieren
     >  $ `cat ~/.ssh/id_rsa.pub` 
 
-- Zu Github wechseln, auf Benutzerkonto klicken, **Settings** aufrufen und zu **SSH und GPG keys** wechseln
--  Auf **New SSH key** klicken
--  **Title** vergeben und den zuvor kopierten Key einfügen und auf **Add SSH key** klicken
+3. Zu Github wechseln, auf Benutzerkonto klicken, **Settings** aufrufen und zu **SSH und GPG keys** wechseln
+4.  Auf **New SSH key** klicken
+5. **Title** vergeben und den zuvor kopierten Key einfügen und auf **Add SSH key** klicken
+***
 
 ### Basic SSH Commands 
 
