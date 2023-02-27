@@ -3,14 +3,17 @@ SSH Basic
 Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workflows zu geben.
 
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Workflows)]()
-![GitHub](/github.png)***SSH Key zu GitHub hinzufügen:*** 
+
+![GitHub](/github.png)***SSH Key zu GitHub hinzufügen*** 
 ***
 1. Lokalen SSH Key erstellen (falls noch nicht vorhanden)
     ``` 
       $ `ssh-keygen -t rsa` 
     ``` 
 2. Public SSH Key anzeigen und den Inhalt koppieren
-    >  $ `cat ~/.ssh/id_rsa.pub` 
+    ```
+     $ `cat ~/.ssh/id_rsa.pub` 
+    ```
 3. Zu Github wechseln, auf Benutzerkonto klicken, **Settings** aufrufen und zu **SSH und GPG keys** wechseln
 4. Auf **New SSH key** klicken
 5. **Title** vergeben und den zuvor kopierten Key einfügen und auf **Add SSH key** klicken
