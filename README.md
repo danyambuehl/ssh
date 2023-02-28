@@ -27,8 +27,15 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
       $ ssh -i "labsuser.pem" ec2-user@3.81.45.73
     ``` 
 
-### Basic SSH Commands 
-***
+## Inhaltsverzeichnis
+
+* 01 - [Basic SSH Commands](#01-Basic-SSH Commands)
+* 02 - [SSH Agent Commands](#02-SSH-Agent-Commands)
+* 03 - [SSH Port Forwading](#03-SSH-Port-Forwading)
+* 04 - [SSH 2 AWS](#04-SSH-2-AWS)
+
+## 01 Basic SSH Commands 
+
 | Behfehl | Beschreibung |
 | ---     | ---   |
 |`ssh-keygen -t rsa` | **Neuen SSH Key erstellen**| 
@@ -44,8 +51,8 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 | `eval "$(ssh-agent -s)"`| output of ssh-agent as shell commands |
 | `ssh-add test_ecdsa_key`| Fügt das Passwort für den Privat Key dem ssh-agent hinzu    |
 
-### SSH Agent Commands 
-***
+## 02 SSH Agent Commands 
+
 | Behfehl | Beschreibung |
 | ---     | ---   |
 | `ssh-add -l` | **ssh key in agent anzeigen**| 
@@ -53,7 +60,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 | `output in Console posten` | agent starten |
 | `ssh-add ~/.ssh/id_rsa` | agent mit private key verknüpfen |
 
-### SSH Port Forwading
+## 03 SSH Port Forwading
 ***
 Local Computer 
 TBZ Rechner : 10.3.44.12 /ubuntu / Equahxi8
@@ -65,7 +72,7 @@ Client: 10.10.5.6 / user1 /tbz4ever
 |On Local Computer -> In new Shell | `ssh user1@localhost -p 33333`| Verbindet SSH auf den Localhost Port 33333 mit user1   |
 
 
-### SSH 2 AWS
+## 04 SSH 2 AWS
 ***
 | Behfehl | Beschreibung |
 | ---     | ---   |
