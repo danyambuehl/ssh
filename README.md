@@ -5,7 +5,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 ### Workflows
 ***
 
-![GitHub](/github.png)***SSH Key zu GitHub hinzufügen*** 
+![GitHub](/images/github.png)***SSH Key zu GitHub hinzufügen*** 
 
 1. Lokalen SSH Key erstellen (falls noch nicht vorhanden)
     ``` 
@@ -19,7 +19,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 4. Auf **New SSH key** klicken
 5. **Title** vergeben und den zuvor kopierten Key einfügen und auf **Add SSH key** klicken
 
-![AWS](/amazon_icon.png)***Auf EC2 Instance verbinden*** 
+![AWS](/images/amazon_icon.png)***Auf EC2 Instance verbinden*** 
 
 1. Mit folgendem Befehl kann auf die EC2 Instance verbunden werden.
     ``` 
