@@ -29,7 +29,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 
 ## Inhaltsverzeichnis
 
-* 01 - [Basic SSH Commands](#01-Basic-SSH Commands)
+* 01 - [Basic SSH Commands](#01-Basic-SSH-Commands)
 * 02 - [SSH Agent Commands](#02-SSH-Agent-Commands)
 * 03 - [SSH Port Forwading](#03-SSH-Port-Forwading)
 * 04 - [SSH 2 AWS](#04-SSH-2-AWS)
