@@ -90,17 +90,17 @@ Client: 10.10.5.6 / user1 /tbz4ever
 
 2. config File wie folgt eintragen. 
   ```
-    Host tbz-03   # Kürzel 
-      HostName 10.1.37.3    # Host IP
-      User ubuntu
-      Port 22
-      IdentityFile ~/.ssh/id_rsa   #Pfad Privat Key
+    Host tbz-03                     # Kürzel 
+      HostName 10.1.37.3            # Host IP
+      User ubuntu                   # Username
+      Port 22                       # Port Nr 
+      IdentityFile ~/.ssh/id_rsa    # Pfad Privat Key
 
     Host *
-      StrictHostKeyChecking no
+      StrictHostKeyChecking no      # Not asking to Trust the Key 
   ```
 
- 3. Nun ist es möglich eine SSH Verbindung nur mit dem kürzel herzustellen
+ 3. Nun ist es möglich eine SSH Verbindung nur mit dem kürzel herzustellen ohne den Key, IP und Benutzer anzugeben
   ``` 
     $ ssh tbz-03
   ``` 
