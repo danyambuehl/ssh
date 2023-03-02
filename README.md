@@ -33,7 +33,7 @@ Das Ziel ist, einen Überblick über einige grundlegende SSH Kommandos und Workf
 * 02 - [SSH Agent Commands](#02-SSH-Agent-Commands)
 * 03 - [SSH Port Forwading](#03-SSH-Port-Forwading)
 * 04 - [SSH 2 AWS](#04-SSH-2-AWS)
-* 05 - [SSH Config](#05-SSH Config)
+* 05 - [SSH Config](#05-SSH-Config)
 
 ## 01 Basic SSH Commands 
 
@@ -91,12 +91,17 @@ Client: 10.10.5.6 / user1 /tbz4ever
 2. config File wie folgt eintragen. 
     ```
   Host tbz-03   # Kürzel 
-     HostName 10.1.37.3    # Host IP 
+
+     HostName 10.1.37.3    # Host IP
+
      User ubuntu
+
      Port 22
+
      IdentityFile ~/.ssh/id_rsa   #Pfad Privat Key
 
   Host *
+  
     StrictHostKeyChecking no
     ```
 
