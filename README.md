@@ -83,10 +83,10 @@ Client: 10.10.5.6 / user1 /tbz4ever
 ## 05 SSH Config
 ***
 1. In lokales .SSH Verzeichniss wechseln
-    ``` 
-      $ cd ~/.ssh
-      $ touch config
-    ``` 
+  ``` 
+    $ cd ~/.ssh
+    $ touch config
+  ``` 
 
 2. config File wie folgt eintragen. 
   ```
@@ -101,9 +101,9 @@ Client: 10.10.5.6 / user1 /tbz4ever
   ```
 
  3. Nun ist es möglich eine SSH Verbindung nur mit dem kürzel herzustellen
-    ``` 
-      $ ssh tbz-03
-    ``` 
+  ``` 
+    $ ssh tbz-03
+  ``` 
 
 ---
 
